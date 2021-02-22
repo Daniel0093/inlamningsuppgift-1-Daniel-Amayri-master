@@ -1,0 +1,31 @@
+body{
+    background-image: url("./img/back.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.App{
+    margin: 30px;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play{
+    padding: 15px;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 4px;
+}
